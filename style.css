@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Pacifico', cursive;
+  color: yellow;
+}
+
+html{
+  background: url("istockphoto-824845572-612x612.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+  margin-top: 20px;
+  width: 95%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+input{
+  outline: none;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#result {
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+#temperature-status {
+  font-style: italic;
+  color: gray;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
